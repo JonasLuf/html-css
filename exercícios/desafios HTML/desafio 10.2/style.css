@@ -1,0 +1,163 @@
+@charset "UTF-8"
+
+:root {
+    --cor01: red;
+    --cor02: black;
+    --cor03: white; 
+
+
+}
+
+body{
+    background-color: black;
+    margin-top: -10px;
+    
+
+}
+header{
+    background-color: red;
+    height: 150px;
+    padding-top: 15px;
+    margin: 0px -10px 0px -10px;
+
+}
+header h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+
+
+}
+header .fla{
+    height: 25px;
+    padding: 0px 15px 0px 15px;
+
+}
+
+header p{
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+header audio{
+    margin-top: -18px;
+    display: inline-block;
+   
+    
+
+}
+#navheader{
+    background-color: black;
+    padding: 10px;
+    margin: 0px -10px;
+    
+}
+.menu{
+    color: red;
+    margin: 10px;
+    
+    text-decoration: none;
+}
+
+
+.menu:hover{
+    transition-duration: 1s;
+    background-color: rgb(241, 239, 224);
+    padding: 5px;
+
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1050px;
+    margin: auto;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.247);
+}
+
+main h1{
+    color: red;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(49, 48, 48), black, rgb(49, 48, 48));
+
+}
+
+main h2{
+    color: red;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(49, 48, 48), black, rgb(49, 48, 48));
+}
+
+main p{
+    color: red;
+    text-align: center;
+    font-weight: 550;
+    padding-bottom: 10px;
+
+}
+aside{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1050px;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.247);
+}
+
+aside h3{
+    background-image: linear-gradient(to right, rgb(49, 48, 48), black, rgb(49, 48, 48));
+    color: red;
+    text-align: center;
+
+}
+aside p{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+
+}
+#redess{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5px;
+   
+}
+.redes {
+    text-decoration: none;
+    color: red;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-weight: bolder;
+   
+}
+.redes::after{
+    content: '\00A0\1F517\00A0';
+
+}
+.redes:hover{
+    transition-duration: 1s;
+    background-color: black;
+    padding: 5px 5px 5px 8px;
+   
+}
+#video{
+    background-color: red;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 56.5%;
+    position: relative;
+
+
+}
+#video > iframe{
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+   position: absolute;
+
+}
+
+footer{
+    background-image: linear-gradient(to right, black, red, black);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}

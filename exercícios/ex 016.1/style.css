@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, red, black);
+
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    border-radius: 5%;
+    box-shadow: 20px 15px 30px white;
+    padding: 6%;
+
+
+
+}
+p{  color: cornflowerblue;
+    text-align: justify;
+    text-shadow: 5px 5px 30px blue;
+
+}
+
+h1{ 
+    color: aquamarine;
+
+
+}
+
+h2{
+    color: aquamarine;
+
+}
+
+ins{
+   
+    
+
+}
+mark{ background-image:linear-gradient(to right, rgba(5, 208, 223, 0.658), red) }

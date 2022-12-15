@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, blue, black, blue);
+        }
+
+        h1{
+            color: aqua;
+            text-align: center;
+        }
+        a{
+            color: rgb(68, 128, 0);
+           font-weight: bold;
+           text-decoration: none;
+        }
+
+        a:hover{
+            color: red;
+            text-decoration: underline;
+
+        }
+        a:active{
+            color: white;
+
+        }
+        a:visited{
+            color: rgba(182, 240, 240, 0.959);
+
+        }
+
+        .especial::after{
+            content: ' ⇐';
+            color: aquamarine;
+        
+        }
+        .especial::before{
+            content: '⇒ ';
+            color: aquamarine;
+        }
+     
+    
+       
+    </style>
+
+<body>
+    <h1>Colocando formatos nos links!</h1>
+
+    <ul>
+        <li><a href="http://www.acer.com.br" target="_blank">Nossa página para comprar notebook!</a></li>
+        <li><a href="http://www.dell.com.br" target="_blank">Nossa página para comprar notebook!</a></li>
+        <li><a href="http://www.globo.com" target="_blank" class="especial">Nossa página de notícias!</a></li>
+
+    </ul>
+
+
+</body>
+</html>

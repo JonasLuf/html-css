@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: blanchedalmond;
+    
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: red;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: purple;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: cornflowerblue;
+    
+}
+ol {
+    color: aqua;
+
+}
+ul {
+    color: cornflowerblue;
+
+}
+
+dl{
+color: blueviolet;
+
+}
+dd{
+    color: darkslateblue;
+
+}
